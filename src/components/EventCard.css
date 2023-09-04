@@ -1,0 +1,60 @@
+  .all-events{
+    margin-top: 50px;
+  }
+  .event-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .event-name {
+    color: black;
+    font-size: 1.2rem;
+    margin: 0; /* Remove margin for event name */
+  }
+  
+  .event-category {
+    color: black;
+    margin: 0; /* Remove margin for event category */
+  }
+  .event-timings {
+    color: black;
+  }
+  
+  .event-button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .event-button:hover {
+    background-color: #0056b3;
+  }
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between event cards */
+  }
+  
+  .event-card {
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px; /* 50% width with a bit of gap */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
